@@ -35,13 +35,13 @@ A high-performance C++ implementation of the Bilateral Reference Network (**BiRe
 ---
 
 ## 📂 Project Structure
-
-		BiRefNet/ ├── include 
-		          │ └── birefnet.h # Main BiRefNet class definition 
-              ├── src 
-              │ └── birefnet.cpp # Implementation of the BiRefNet class 
-              ├── CMakeLists.txt # CMake configuration 
-              └── main.cpp # Demo application
+	BiRefNet/ 
+ 	├── include 
+  	│ └── birefnet.h # Main BiRefNet class definition
+   	├── src 
+    │ └── birefnet.cpp # Implementation of the BiRefNet class
+    ├── CMakeLists.txt # CMake configuration 
+    └── main.cpp #
 
 
 - **include/birefnet.h**  
@@ -62,11 +62,11 @@ A high-performance C++ implementation of the Bilateral Reference Network (**BiRe
 
 1. **Clone the Repository**
 
-   git clone https://github.com/hamdiboukamcha/BiRefNet-Cpp-TensorRT.git
-   cd BiRefNet-Cpp-TensorRT
-	 mkdir build && cd build
-	 cmake ..
-	 make -j$(nproc)
+		git clone https://github.com/hamdiboukamcha/BiRefNet-Cpp-TensorRT.git
+		cd BiRefNet-Cpp-TensorRT
+		mkdir build && cd build
+		cmake ..
+		make -j$(nproc)
 
 	
 ## 📦 Dependencies
@@ -108,24 +108,21 @@ BiRefNet::postprocess(...)
 Reshapes the raw output into meaningful image data, typically an 8-bit or 32-bit matrix for segmentation.
 
 ## 🎬 Usage
-Prepare Your Engine
-
-Convert your model to ONNX, then build a TensorRT engine (e.g., using trtexec or a custom builder).
+	Prepare Your Engine
+	Convert your model to ONNX, then build a TensorRT engine (e.g., using trtexec or a custom builder).
 	trtexec --onnx=birefnet_model.onnx --saveEngine=BiRefNet-tiny.engine --fp16
 	
 ## 📞 Contact
-For further inquiries or advanced usage discussions:
 
-Email: your.email@example.com
-LinkedIn: Your Name
+For advanced inquiries, feel free to contact me on LinkedIn: <a href="https://www.linkedin.com/in/hamdi-boukamcha/" target="_blank"> <img src="assets/blue-linkedin-logo.png" alt="LinkedIn" width="32" height="32"></a>
 
 ## 📜 Citation
 If you use BiRefNet C++ TENSORRT in your academic work or research, please cite:
 
-@misc{Boukamcha2025BiRefNet,
-    author       = {Hamdi Boukamcha},
-    title        = {BiRefNet C++ TENSORRT},
-    year         = {2025},
-    publisher    = {GitHub},
-    howpublished = {\url{https://github.com/hamdiboukamcha/BiRefNet-Cpp-TensorRT}}
-}
+	@misc{Boukamcha2025BiRefNet,
+    		author       = {Hamdi Boukamcha},
+    		title        = {BiRefNet C++ TENSORRT},
+    		year         = {2025},
+    		publisher    = {GitHub},
+    		howpublished = {\url{https://github.com/hamdiboukamcha/BiRefNet-Cpp-TensorRT}}
+	}		
