@@ -1,4 +1,4 @@
-# BiRefNet C++ TENSORRT
+# BiRefNet C++ TENSORRT (Dichotomous Image Segmentation)
 A high-performance C++ implementation of the Bilateral Reference Network (**BiRefNet**) leveraging **TensorRT** and **CUDA**, optimized for real-time, high-resolution dichotomous image segmentation.
 
 <img src="asset/BiRefNet-Cpp-TensorRT.JPG" alt="BiRefNet C++ TENSORRT" width="800"/>
