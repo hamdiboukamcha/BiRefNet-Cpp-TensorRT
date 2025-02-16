@@ -119,7 +119,7 @@ Reshapes the raw output into meaningful image data, typically an 8-bit or 32-bit
 	
 ## 📞 Contact
 
-For advanced inquiries, feel free to contact me on LinkedIn: <a href="https://www.linkedin.com/in/hamdi-boukamcha/" target="_blank"> <img src="assets/blue-linkedin-logo.png" alt="LinkedIn" width="32" height="32"></a>
+For advanced inquiries, feel free to contact me on LinkedIn: <a href="https://www.linkedin.com/in/hamdi-boukamcha/" target="_blank"> <img src="asset/blue-linkedin-logo.png" alt="LinkedIn" width="32" height="32"></a>
 
 ## 📜 Citation
 If you use BiRefNet C++ TENSORRT in your academic work or research, please cite:
