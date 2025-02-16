@@ -6,7 +6,7 @@ A high-performance C++ implementation of the Bilateral Reference Network (**BiRe
 <a href="https://github.com/hamdiboukamcha/BiRefNet-Cpp-TensorRT" style="margin: 0 2px;">
     <img src="https://img.shields.io/badge/GitHub-Repo-blue?style=flat&logo=GitHub" alt="GitHub">
 </a>
-<a href="https://github.com/hamdiboukamcha/BiRefNet-Cpp-TensorRT?tab=License" style="margin: 0 2px;">
+<a href="https://github.com/hamdiboukamcha/BiRefNet-Cpp-TensorRT?tab=License-1-ov-file" style="margin: 0 2px;">
     <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat&logo=license" alt="License">
 </a>
 
