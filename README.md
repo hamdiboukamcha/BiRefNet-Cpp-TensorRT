@@ -1,7 +1,7 @@
 # BiRefNet C++ TENSORRT
 A high-performance C++ implementation of the Bilateral Reference Network (**BiRefNet**) leveraging **TensorRT** and **CUDA**, optimized for real-time, high-resolution dichotomous image segmentation.
 
-<img src="asset/BiRefNet-Cpp-TensorRT.JPG" alt="BiRefNet Banner" width="800"/>
+<img src="asset/BiRefNet-Cpp-TensorRT.JPG" alt="BiRefNet C++ TENSORRT" width="800"/>
 
 <a href="https://github.com/hamdiboukamcha/BiRefNet-Cpp-TensorRT" style="margin: 0 2px;">
     <img src="https://img.shields.io/badge/GitHub-Repo-blue?style=flat&logo=GitHub" alt="GitHub">
@@ -15,6 +15,11 @@ A high-performance C++ implementation of the Bilateral Reference Network (**BiRe
 ## 🌐 Overview
 
 **BiRefNet C++ TENSORRT** is designed to efficiently run bilateral reference segmentation tasks on the GPU. By harnessing TensorRT’s optimizations and CUDA kernels, it aims to deliver state-of-the-art performance with minimal latency.
+
+<p>
+  <img src="asset/1693479941020.jpg" alt="BiRefNet C++ TENSORRT" width="300" />
+  <img src="asset/O-1693479941020.jpg" alt="BiRefNet C++ TENSORRT" width="300" />
+</p>
 
 ### Key Features
 
